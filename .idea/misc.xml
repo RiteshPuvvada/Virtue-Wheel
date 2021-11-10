@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/P.RITESH/Desktop/Shit/FALL 2021-2022/APPDEV/lab/SpinWheel/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/P.RITESH/Desktop/Shit/FALL 2021-2022/APPDEV/lab/SpinWheel/app/src/main/res/layout/activity_second.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/P.RITESH/Desktop/Shit/FALL 2021-2022/APPDEV/lab/SpinWheel/app/src/main/res/layout/activity_teller.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
