@@ -20,14 +20,14 @@ public class MainActivity extends AppCompatActivity {
     ImageView imageView;
     TextView textView2;
 
-    String[] sectors = {"Courage",
-            "Patience", "Discipline", "Delicacy",
-            "Humility", "Spontaneity", "Responsibility",
-            "Harmony", "Wisdom", "Faith",
-            "Friendship","Self-Confidence","Detachment",
-            "Happiness","Enthusiasm","Discernment",
-            "Tolerance","Contentment","Compassion",
-            "BrotherHood","Simplicity"};
+    String[] sectors = {"Faith",
+            "Friendship", "Self-Confidence", "Detachment",
+            "Happiness", "Enthusiasm", "Discernment",
+            "Tolerance", "Contentment", "Compassion",
+            "BrotherHood","Simplicity","Courage",
+            "Patience","Discipline","Delicacy",
+            "Humility","Spontaneity","Responsibility",
+            "Harmony","Wisdom"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
         String res = null;
 
         do{
+
             if(degree > initialPoint && degree < endPoint){
                 res = sectors[i];
             }
@@ -143,8 +144,8 @@ public class MainActivity extends AppCompatActivity {
             color = "#f54a00";
             updateBack = Color.parseColor(color);
             intent.putExtra("COL",updateBack);
-        }else if(res == "Brotherhood"){
-            result = "Brotherhood : \n"+"Because you know the father every human being has become your brother.";
+        }else if(res == "BrotherHood"){
+            result = "BrotherHood : \n"+"Because you know the father every human being has become your brother.";
             color = "#3eb2cf";
             updateBack = Color.parseColor(color);
             intent.putExtra("COL",updateBack);
